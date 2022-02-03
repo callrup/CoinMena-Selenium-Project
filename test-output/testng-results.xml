@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="13" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-03T20:59:00 GST" name="All Test Suite" finished-at="2022-02-03T20:59:29 GST" duration-ms="28700">
+    <groups>
+    </groups>
+    <test started-at="2022-02-03T20:59:00 GST" name="CoinBase automation" finished-at="2022-02-03T20:59:29 GST" duration-ms="28700">
+      <class name="org.example.testcases.PDP">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.example.testcases.PDP@4a668b6e]" started-at="2022-02-03T20:59:14 GST" name="beforeClass" finished-at="2022-02-03T20:59:14 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.example.testcases.PDP@4a668b6e]" started-at="2022-02-03T20:59:14 GST" name="beforeMethod" finished-at="2022-02-03T20:59:16 GST" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="samsungGalaxyS6PDP()[pri:1, instance:org.example.testcases.PDP@4a668b6e]" started-at="2022-02-03T20:59:16 GST" name="samsungGalaxyS6PDP" finished-at="2022-02-03T20:59:20 GST" duration-ms="3746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samsungGalaxyS6PDP -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.example.testcases.PDP@4a668b6e]" started-at="2022-02-03T20:59:20 GST" name="afterMethod" finished-at="2022-02-03T20:59:20 GST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.example.testcases.PDP -->
+      <class name="org.example.testcases.SignUp">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:org.example.testcases.SignUp@1fb700ee]" started-at="2022-02-03T20:58:49 GST" name="setUpTest" finished-at="2022-02-03T20:59:00 GST" duration-ms="10880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.example.testcases.SignUp@1fb700ee]" started-at="2022-02-03T20:59:01 GST" name="beforeClass" finished-at="2022-02-03T20:59:01 GST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.example.testcases.SignUp@1fb700ee]" started-at="2022-02-03T20:59:01 GST" name="beforeMethod" finished-at="2022-02-03T20:59:01 GST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validSingUp()[pri:1, instance:org.example.testcases.SignUp@1fb700ee]" started-at="2022-02-03T20:59:01 GST" name="validSingUp" finished-at="2022-02-03T20:59:04 GST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSingUp -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.example.testcases.SignUp@1fb700ee]" started-at="2022-02-03T20:59:04 GST" name="beforeMethod" finished-at="2022-02-03T20:59:05 GST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="singUpWithUsedUsername()[pri:2, instance:org.example.testcases.SignUp@1fb700ee]" started-at="2022-02-03T20:59:05 GST" name="singUpWithUsedUsername" finished-at="2022-02-03T20:59:07 GST" depends-on-methods="org.example.testcases.SignUp.validSingUp" duration-ms="1971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singUpWithUsedUsername -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.example.testcases.SignUp@1fb700ee]" started-at="2022-02-03T20:59:07 GST" name="beforeMethod" finished-at="2022-02-03T20:59:07 GST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="singUpWithEmptyFields()[pri:3, instance:org.example.testcases.SignUp@1fb700ee]" started-at="2022-02-03T20:59:07 GST" name="singUpWithEmptyFields" finished-at="2022-02-03T20:59:08 GST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singUpWithEmptyFields -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:org.example.testcases.SignUp@1fb700ee]" started-at="2022-02-03T20:59:30 GST" name="tearDownTest" finished-at="2022-02-03T20:59:32 GST" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- org.example.testcases.SignUp -->
+      <class name="org.example.testcases.Login">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.example.testcases.Login@4f67eb2a]" started-at="2022-02-03T20:59:08 GST" name="beforeClass" finished-at="2022-02-03T20:59:09 GST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.example.testcases.Login@4f67eb2a]" started-at="2022-02-03T20:59:09 GST" name="beforeMethod" finished-at="2022-02-03T20:59:09 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin()[pri:1, instance:org.example.testcases.Login@4f67eb2a]" started-at="2022-02-03T20:59:09 GST" name="validLogin" finished-at="2022-02-03T20:59:14 GST" duration-ms="5597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- org.example.testcases.Login -->
+      <class name="org.example.testcases.Cart">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.example.testcases.Cart@5f683daf]" started-at="2022-02-03T20:59:20 GST" name="beforeClass" finished-at="2022-02-03T20:59:20 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.example.testcases.Cart@5f683daf]" started-at="2022-02-03T20:59:20 GST" name="beforeMethod" finished-at="2022-02-03T20:59:21 GST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cartTotalPrice()[pri:1, instance:org.example.testcases.Cart@5f683daf]" started-at="2022-02-03T20:59:21 GST" name="cartTotalPrice" finished-at="2022-02-03T20:59:23 GST" duration-ms="2225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartTotalPrice -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.example.testcases.Cart@5f683daf]" started-at="2022-02-03T20:59:23 GST" name="beforeMethod" finished-at="2022-02-03T20:59:24 GST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cartPlaceOrder()[pri:2, instance:org.example.testcases.Cart@5f683daf]" started-at="2022-02-03T20:59:24 GST" name="cartPlaceOrder" finished-at="2022-02-03T20:59:29 GST" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPlaceOrder -->
+      </class> <!-- org.example.testcases.Cart -->
+    </test> <!-- CoinBase automation -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

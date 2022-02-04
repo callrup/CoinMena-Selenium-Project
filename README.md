@@ -3,7 +3,7 @@ Assignment automate some test cases On "demoblaze" with Selenium_Maven Using Pag
 
 # Test Cases & Defect Report is kept inside Test Doc Folder
 
-# Following project is used as an interview evaluation tool. It consists of a common web UI test automation stack:
+#  web UI test automation :
 
 Java 8
 Selenium 3.141.59

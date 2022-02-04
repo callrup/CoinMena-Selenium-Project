@@ -24,3 +24,21 @@ Windows: Chocolatey maven package
 You can verify the proper installation by executing the following command:
 
 mvn --version
+
+===============================================
+    CoinMena automation
+    Tests run: 7, Failures: 0, Skips: 0
+===============================================
+
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.378 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  57.376 s
+[INFO] Finished at: 2022-02-04T08:58:38+04:00
+[INFO] ------------------------------------------------------------------------
